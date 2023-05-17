@@ -3,8 +3,8 @@ import { MyToken__factory } from "../typechain-types";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-const TOKEN_ADDRESS = "0xAB5a06Cf25BB39Edcfa4B15b65FDfa7e96639eA6"
-const VOTER_ADDRESS = "0x3e702e39e0649bd8581d07a5bf1b9e5924d94ce0"
+const TOKEN_ADDRESS = "0xDE92a0f5b6ED16c1ae5d87B126d577433846fd4D"
+const VOTER_ADDRESS = "0x73047EE0903e8A9A4c4D2448e56Bc89850D37e4A"
 
 async function main() {
   const wallet = new ethers.Wallet(process.env.PRIVATE_KEY ?? "");

@@ -3,7 +3,7 @@ import { TokenizedBallot__factory } from "../typechain-types";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-const BALLOT_CONTRACT_ADDRESS = "0x43d3A6C1b72DD29aBD66f8f25e88A906df2ec1F1";
+const BALLOT_CONTRACT_ADDRESS = "0xd338fB9a98c81f606014904bbb052B7039769c58";
 
 async function main() {
   const wallet = new ethers.Wallet(process.env.PRIVATE_KEY ?? "");

@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-const BALLOT_CONTRACT_ADDRESS = "0x43d3A6C1b72DD29aBD66f8f25e88A906df2ec1F1"
+const BALLOT_CONTRACT_ADDRESS = "0xaF274Ca0258a6D44A1dfCE4d1F77366f47E74E88"
 const PROPOSAL_ID = 1
 const AMOUNT = "1"
 
