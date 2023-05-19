@@ -2,8 +2,8 @@ import { ethers } from "hardhat";
 import { TokenizedBallot__factory } from "../typechain-types";
 import * as dotenv from "dotenv";
 dotenv.config();
+const { TOKEN_ADDRESS } = require("./config");
 
-const TOKEN_ADDRESS = "0xDE92a0f5b6ED16c1ae5d87B126d577433846fd4D";
 const BLOCK_QUANTITY = 100;
 
 function convertStringArrayToBytes32(array: string[]) {

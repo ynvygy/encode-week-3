@@ -18,6 +18,14 @@ contract MyToken is ERC20, AccessControl, ERC20Permit, ERC20Votes {
         _mint(to, amount);
     }
 
+    function grantMinterRole(address account) public {
+        require(
+            hasRole(DEFAULT_ADMIN_ROLE, msg.sender),
+            "Caller is not an admin"
+        );
+        grantRole(MINTER_ROLE, account);
+    }
+
     // The following functions are overrides required by Solidity.
 
     function _afterTokenTransfer(
