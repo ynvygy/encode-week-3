@@ -19,7 +19,7 @@ async function main() {
   const contract = await contractFactory.attach(TOKEN_ADDRESS);
   console.log(`Attached to the contract at address ${contract.address}`);
 
-  console.log(`Delegating to ${VOTER_ADDRESS}`);
+  console.log(`Granting minter role to ${VOTER_ADDRESS}`);
   const grantMinterRole = await contract.grantMinterRole(VOTER_ADDRESS);
   const grantMinterRoleTxReceipt = await grantMinterRole.wait();
   console.log(
