@@ -15,6 +15,9 @@ Report (Mumbai):
 Tx: 0x914813cd57b7738d641975f5957e4a95717a6c6c6d5f0ddb6930a5c6eada7faf
 0x3e702e39e0649bd8581d07a5bf1b9e5924d94ce0 => created the token contract at => 0x60243c03b2f9a7390cD8542F13baB1627db8d783
 
+Tx: 0x78ea9b7ae44869a2ba5c938506e08d842afff8a3f67779ebe60c1da41d2a2fe1
+0x3e702e39e0649bd8581d07a5bf1b9e5924d94ce0 => created the ballot contract at => 0xf91061ba12f2d4f2b6d91c9be88290d00e8d114d
+
 Tx: 0x7ff3b74cfb3e87fe153e0bb18d65149eab470afaad524be102def3b52838f70b
 0x3e702e39e0649bd8581d07a5bf1b9e5924d94ce0 => minted 5 tokens for himself
 
